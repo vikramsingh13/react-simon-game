@@ -15,6 +15,11 @@ $primary-color: #fff;
 $secondary-color: #000;
 
 .app{
+	display:flex;
+	flex-direction: column;
+}
+
+.app-wrapper{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -31,4 +36,5 @@ $secondary-color: #000;
 
 .highscore{
 	font-size: 24px;
+	text-align: center;
 }

@@ -126,23 +126,25 @@ export default class App extends Component{
 	render(){
 		return(
 			<div className="app">
-				<div className="card-wrapper">
-					{this.state.defaultColors.map((color, i) => 
-						<ColorCard
-						onClick={this.userPickedColor}
-						id={i}
-						isFlashing={this.state.isFlashing}
-						isPlaying={this.state.isPlaying}
-						color={color}
-						/>
-					)}
+				<div className="app-wrapper">
+					<div className="card-wrapper">
+						{this.state.defaultColors.map((color, i) => 
+							<ColorCard
+							onClick={this.userPickedColor}
+							id={i}
+							isFlashing={this.state.isFlashing}
+							isPlaying={this.state.isPlaying}
+							color={color}
+							/>
+						)}
+					</div>
+
+					<ScoreButton
+					onClick={this.pressedStart}
+					score={this.state.score}
+					/>
 				</div>
-
-				<ScoreButton
-				onClick={this.pressedStart}
-				score={this.state.score}
-				/>
-
+				
 				<div className="highscore">
 					<p>Highscore: {this.state.highscore}</p>
 				</div>
