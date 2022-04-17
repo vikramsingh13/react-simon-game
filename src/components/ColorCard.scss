@@ -1,0 +1,34 @@
+$green-card: green;
+$red-card: red;
+$yellow-card: yellow;
+$blue-card: blue;
+
+
+.color-card{
+	height: 200px;
+	width: 200px;
+	border-radius: 15px;
+	margin: 10px;
+
+	cursor: pointer;
+}
+
+.green{
+	background-color: $green-card;
+}
+
+.red{
+	background-color: $red-card;
+}
+
+.yellow{
+	background-color: $yellow-card;
+}
+
+.blue{
+	background-color: $blue-card;
+}
+
+.flashing{
+	opacity: 0.5;
+}

@@ -1,0 +1,28 @@
+/*
+Color Palette
+
+primary: ;
+secondary: ;
+
+green: ;
+red: ;
+yellow: ;
+blue: ;
+*/
+
+$primary-color: #fff;
+$secondary-color: #000;
+
+.app{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	margin-top: 50px;
+}
+
+.card-wrapper{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
