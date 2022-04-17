@@ -8,6 +8,7 @@ green: ;
 red: ;
 yellow: ;
 blue: ;
+
 */
 
 $primary-color: #fff;
@@ -17,8 +18,10 @@ $secondary-color: #000;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
 
 	margin-top: 50px;
+
 }
 
 .card-wrapper{
@@ -26,3 +29,6 @@ $secondary-color: #000;
 	grid-template-columns: repeat(2, 1fr);
 }
 
+.highscore{
+	font-size: 24px;
+}

@@ -9,8 +9,6 @@ $blue-card: blue;
 	width: 200px;
 	border-radius: 15px;
 	margin: 10px;
-
-	cursor: pointer;
 }
 
 .green{
@@ -31,4 +29,12 @@ $blue-card: blue;
 
 .flashing{
 	opacity: 0.5;
+}
+
+.playing{
+	cursor: pointer;
+}
+
+.not-playing{
+	cursor: disabled;
 }
