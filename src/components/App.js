@@ -114,12 +114,13 @@ export default class App extends Component{
 
 	//plays sound when flashing cards
 	playCardSound = () => {
+        //todo add sounds when card is tapped
 
 	}
 
 	//plays highscore sound if applicable
 	playHighscoreSound = () => {
-
+        //todo add sounds when user sets a new hiscore
 	}
 
 
